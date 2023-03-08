@@ -1,0 +1,203 @@
+:root {
+    --roxo-fundo: #f9d2d3;
+    --azulzinho: #95ccea;
+    --branco: #FFFFFF;
+    --fonte-principal:'Noto Serif Tamil', serif;
+}
+
+body {
+    background-color: var(--roxo-fundo);
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    align-items: center;
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.principal {
+    background-image: url("img/fundo3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    padding: 1em 7em 0;
+}
+
+.imagem {
+    width: 20em;
+}
+.container__balao {
+    height: 15em;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+}
+
+.descrição {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 7em 9em 0;
+
+}
+
+.secundario {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    display: inline-block;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+span {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.carrosel {
+    box-shadow: 0 1px 2px #0003;
+    width: 100%;
+    display: inline-block;
+}
+
+.swiper {
+    height: 500px;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 450px) {
+    .swiper {
+        height: 270px;
+    }
+}
+
+.titulo2 {
+    color: var(--azulzinho);    
+}
+
+.titulo3 {
+    color: #9F33FF;
+}
+
+.container__botão {
+    background-color: var(--azulzinho);
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--branco);
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    margin: 0 auto
+}
+
+.botão:hover{
+    transform: scale(1.5);
+    transition: 0.5s linear;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.titulocartinha {
+    padding-top: 5em;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.nomes {
+    font-size: 24px;
+    padding: 3em;
+    list-style-type: none;
+}
+
+.nomes, a {
+    text-decoration: none;
+    color: #2C62FD;
+}
+
+.nomes, a:hover{
+    transform: scale(1.3);
+}
+
+.n1 {
+    padding: 1em;
+}
+
+.n2 {
+    padding: 1em;
+}
+
+.n3 {
+    padding: 1em;
+}
+
+.n4 {
+    padding: 1em;
+}
+
+.n5 {
+    padding: 1em;
+}
+
+.n6 {
+    padding: 1em;
+}
+
+.n7 {
+    padding: 1em;
+}
+
+.n8 {
+    padding: 1em;
+}
+
+.nomes {
+    box-sizing: border-box;
+	border: 2px solid black;
+	border-radius:20px;
+    display: inline-grid;
+}
+
+.surpresa {
+    background-color: #A948FF;
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--branco);
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    margin: 0 auto
+}
+
+.presente {
+    padding-top: 8em;
+}
